@@ -1,0 +1,19 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pa-react":"cd pa-react && npm start",
+    "expressjs":"cd expressjs && npm run server",
+    "dev":"concurrently \"npm run pa-react\" \"npm run expressjs\""
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
